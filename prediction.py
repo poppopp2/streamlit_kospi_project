@@ -46,7 +46,8 @@ def prediction():
     # 두 번째 파일 업로더
     st.markdown("<h3 style='color: #8C8C8C;'>코스피 데이터를 다운받아 주세요.</h3>", unsafe_allow_html=True)
     st.markdown("[kospi, 통계 사이트](https://ecos.bok.or.kr/#/Short/79bcee)")
-    st.image("코스피2.png", caption='Optional caption')
+    st.image("일일코스피1.png", caption='Optional caption')
+    st.image("일일코스피2.png", caption='Optional caption')
     file2 = st.file_uploader("주식시장(일) 파일을 업로드하세요.", type=["csv"])
 
     if file1 is not None and file2 is not None:
