@@ -85,7 +85,7 @@ ind = {"기준금리": "기준금리는 중앙은행이 시중은행에게 대�
     "- 경제 성장률 예측: 코스피 시가총액의 증가는 종종 경제의 성장을 예측하는 지표로 사용됩니다. 주식 시장이 성장하면 기업들의 실적이나 경제의 미래 전망에 대한 긍정적인 기대감이 반영되어 경제의 성장률을 예상할 수 있습니다."}
 
 def corr():
-    st.title('경제지표에 따른 코스피 가격 변화 및 상관계수를 보여줍니다.')
+    st.title('경제지표에 따른 코스피 가격 변화 및 상관계수를 보여줍니다.!')
     st.image('https://eiec.kdi.re.kr/userdata/nara/202207/aaa3kilizDpHqeOtLMfgy20220629105046dhqcs.jpg',use_column_width=True)
     df=pd.read_csv('지표10.csv')
     
