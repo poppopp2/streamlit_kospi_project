@@ -134,7 +134,7 @@ def corr():
         #1. 페어플롯을 그린다.
         #todo : 1. pairplot 을 다른 라이브러리 이용해서 하는 방법
         # pairplot 말고, 반복문으로 두 컬럼씩 관계를 차트로 그리는 방법
-        pair_plot = sb.pairplot(data=df, vars=columns_list)
+        pair_plot = sb.pairplot(data=df, vars=columns_list ,kind="reg")
         pair_plot.fig.suptitle("corr",y=1.02)
         st.pyplot(pair_plot)
 
