@@ -6,7 +6,7 @@ def prediction():
     st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUcwUt7Xa8Q9NClbgWyApDRvzvXL_sEEpoLg&usqp=CAU', use_column_width=True)
 
 
-    st.title('파일을 업로드해서 금일 코스피 가격을 예측합니다.!')
+    st.title('파일을 업로드해서 금일 코스피 가격을 예측합니다.')
     st.markdown("<h3 style='color: red;'>※주의 : 과거 수치를 기반으로 예측한 것이기 때문에 참고만 해주시길 바랍니다.※</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: #8C8C8C;'>100대 통계지표를 다운받아 주세요.</h3>", unsafe_allow_html=True)
     st.markdown("[100대 통계지표 사이트](https://ecos.bok.or.kr/#/StatisticsByTheme/KoreanStat100)")
