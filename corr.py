@@ -153,6 +153,3 @@ def corr():
         # for pair in combinations_list:
         #     pair_plot = sb.pairplot(data=df, vars=pair)
         #     st.pyplot(pair_plot)
-
-
-
