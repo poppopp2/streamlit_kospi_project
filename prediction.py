@@ -14,7 +14,7 @@ def prediction():
 
     # 첫 번째 파일 업로더
     file1 = st.file_uploader("100대 통계 지표를 업로드하세요..", type=["xlsx"])
-    # 두 번째 파일 업로더
+    # 두 번째 파일 업로더 
     st.markdown("<h3 style='color: #8C8C8C;'>코스피 데이터를 다운받아 주세요.</h3>", unsafe_allow_html=True)
     st.markdown("[kospi, 통계 사이트](https://ecos.bok.or.kr/#/Short/79bcee)")
     st.image("일일코스피1.png", caption='Optional caption')
@@ -70,7 +70,7 @@ def prediction():
     df=df.drop(columns=['kospi'])
     #st.dataframe(df[::-1].head())
     col=df.columns
-
+    # 사용자 지정 숫자로 모델 예측
     X = []
     if p==0:
         for i in col:
@@ -86,7 +86,6 @@ def prediction():
     if st.button('예측하기'):
         regressor=joblib.load('regressor2.pkl')
         X=np.array(X).reshape(1,-1)
-
         y_pred=regressor.predict(X)
         y_pred=y_pred[0]
         y_pred=round(y_pred)
