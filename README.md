@@ -2,7 +2,7 @@
 # 프로잭트 소개: 
 이 프로젝트는 국가나 경제의 건강 상태를 파악하기 위해 사용되는 다양한 통계 지표의 상관관계를 보여주고 지표 변화에 따른 코스피 가격을 예측하는 프로젝트 입니다.
 
-링크 : http://ec2-13-124-63-236.ap-northeast-2.compute.amazonaws.com:8506/
+링크 : http://ec2-3-36-87-46.ap-northeast-2.compute.amazonaws.com:8506/
 
 ## 사용 라이브러리
 streamlit, pandas, plotly, datetime, seaborn, matplotlib,joblib
