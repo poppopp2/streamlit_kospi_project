@@ -27,7 +27,7 @@ https://ecos.bok.or.kr/#/ 사이트에서 필요한 지표를 다운로드 했�
 데이터를 합치기위해 workday 데이터의 index와 month 데이터의 index를 통일시키고 기존 index를 따로 빼놨습니다.
 month 데이터는 영어로된 날짜 형태에서 workday의 날짜 형태로 index를 바꿔줬습니다.
 
-wokday
+workday
 
 ![alt text](readme_image/image-7.png)    ![alt text](readme_image/image-8.png)
 
