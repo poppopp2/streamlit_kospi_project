@@ -79,7 +79,7 @@ def prediction():
                 X.append(float(input_val))  # 입력된 값을 실수로 변환하여 추가
     elif p==1:
         for i,k in zip(col,test):
-            input_val = st.text_input(i + '의 가격을 입력하세요' ,help=(f'금일의 {i} 가격은 {k} 원 입니다' ) ,)
+            input_val = st.text_input(i + '의 수치을 입력하세요' ,help=(f'금일의 {i} 수치는 "{k}" 입니다' ) ,)
             if input_val.strip():  # 빈 문자열이 아닌 경우에만 추가
                 X.append(float(input_val))  # 입력된 값을 실수로 변환하여 추가
     
